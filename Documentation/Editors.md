@@ -16,7 +16,7 @@ needs to be updated in one place — all texts across the entire website are imm
 
 1. Open a content element with a text field (RTE) in the backend.
 2. Place the cursor where the value should appear.
-3. Click the **"Placeholders"** button in the toolbar.
+3. Click the **"Master Data"** button in the toolbar.
 4. Select the desired entry from the dropdown.
 
 The placeholder is inserted as text, e.g.:
@@ -33,7 +33,7 @@ If master data has already been entered in the site configuration, the dropdown 
 current value in parentheses:
 
 ```
-Owner / Operator (Example GmbH)
+Company / Owner (Example GmbH)
 ```
 
 If no value has been stored yet, only the label is shown:
@@ -49,17 +49,11 @@ Owner / Operator
 | Label                      | Placeholder                                      |
 |----------------------------|--------------------------------------------------|
 | Owner / Operator           | `[[sitemetadata.owner]]`                         |
-| Contact Person             | `[[sitemetadata.contactPerson]]`                 |
 | Phone                      | `[[sitemetadata.phone]]`                         |
-| Fax                        | `[[sitemetadata.fax]]`                           |
 | E-Mail                     | `[[sitemetadata.email]]`                         |
 | Street and House Number    | `[[sitemetadata.street]]`                        |
 | Postal Code                | `[[sitemetadata.zip]]`                           |
 | City                       | `[[sitemetadata.city]]`                          |
-| Youth Protection Officer   | `[[sitemetadata.youthProtectionOfficer]]`        |
-| Data Protection Officer    | `[[sitemetadata.dataProtectionOfficer]]`         |
-| AI Officer                 | `[[sitemetadata.aiOfficer]]`                     |
-| Accessibility Officer      | `[[sitemetadata.accessibilityOfficer]]`          |
 
 > The complete list depends on the fields configured for your project and may include
 > additional entries.

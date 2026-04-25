@@ -41,7 +41,7 @@ After that, the master data fields are available in the backend under
 2. Tab **Site Sets** → expand **Site Master Data**.
 3. Fill in the fields and save.
 
-The values are stored in `config/sites/<site>/config.yaml` under `settings:`, e.g.:
+The values are stored in `config/sites/<site>/settings.yaml:`, e.g.:
 
 ```yaml
 settings:
