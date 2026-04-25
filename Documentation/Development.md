@@ -1,4 +1,6 @@
+This are main parts of promptins-steps in the development of this extension. Some loops of error-correction were needed in some places. I used german prompts.
 
+=====
 In diesem Ordner läuft ein TYPO3-Projekt der Version 14 in einem ddev-System.
 Ich möchte erreichen, dass die Stammdaten zu einer Webseite wie Inhaber, Ansprechpartner, Telefon, STraße, PLZ, Stadt Fax, Email, Jugendschutzbeauftragter, Datenschutzbeauftragter, KI-Beauftragter, Barrierefreiheitsbeauftragter für den Nutzer im CK-Editor als Variable verfügbar gemacht werden. Als Speicherort für die Daten schwebt mit die config.yaml im Ordner configuration/Sets/ vor.
 Sinnvoll wäre vermutlich auch eine eigene Erweiterungsextension dafür zu schreiben.
