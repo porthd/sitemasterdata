@@ -1,0 +1,13 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  porthd\sitemasterdata\:
+    resource: '../Classes/'
+
+  porthd\sitemasterdata\EventListener\InjectSiteMasterdataPlaceholdersListener:
+    tags:
+      - name: event.listener
+        identifier: 'porthd/sitemasterdata/injectSiteMasterdataPlaceholders'

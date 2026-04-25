@@ -1,0 +1,43 @@
+# Extends the camino default preset with the master data placeholder button.
+# Note: toolbar.items must be redefined completely, as TYPO3 replaces arrays
+# on YAML imports rather than merging them.
+imports:
+  - { resource: 'EXT:theme_camino/Configuration/RTE/Default.yaml' }
+
+editor:
+  config:
+    # Load the master data plugin
+    importModules:
+      - { module: '@porthd/sitemasterdata/ckeditor5-sitemasterdata-plugin.js', exports: ['SiteMasterdataPlaceholders'] }
+
+    # Toolbar with placeholder button on the far left
+    toolbar:
+      items:
+        - siteMasterdataPlaceholders
+        - '|'
+        - bold
+        - italic
+        - subscript
+        - superscript
+        - softhyphen
+        - '|'
+        - bulletedList
+        - numberedList
+        - '|'
+        - findAndReplace
+        - link
+        - '|'
+        - removeFormat
+        - undo
+        - redo
+        - '|'
+        - specialCharacters
+        - sourceEditing
+
+    # Button label and tooltip are translated and set by the event listener.
+    siteMasterdataDropdownLabel: ''
+    siteMasterdataDropdownTooltip: ''
+
+    # Placeholder list is populated at runtime by the event listener from settings.definitions.yaml.
+    # To add new placeholders, only edit settings.definitions.yaml – no further changes needed.
+    siteMasterdataPlaceholders: []

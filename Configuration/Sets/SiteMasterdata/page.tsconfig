@@ -1,0 +1,2 @@
+# Activate the master data preset (extends camino_default with the placeholder button)
+RTE.default.preset = sitemasterdata_default

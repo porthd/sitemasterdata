@@ -1,0 +1,21 @@
+settings:
+  sitemasterdataOwner:
+    type: string
+    default: ''
+    label: 'Inhaber / Betreiber'
+
+  sitemasterdataPhone:
+    type: string
+    default: ''
+    label: 'Telefon'
+
+  sitemasterdataEmail:
+    type: string
+    default: ''
+    label: 'E-Mail'
+
+  # Key without prefix – must not appear in results
+  unrelatedKey:
+    type: string
+    default: ''
+    label: 'Ohne Prefix'

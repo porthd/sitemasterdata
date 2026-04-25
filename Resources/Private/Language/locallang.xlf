@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext"
+          original="EXT:sitemasterdata/Resources/Private/Language/locallang.xlf">
+        <body>
+
+            <!-- Site Set fields -->
+            <trans-unit id="setting.company" resname="setting.company">
+                <source>Company / Operator</source>
+            </trans-unit>
+            <trans-unit id="setting.phone" resname="setting.phone">
+                <source>Phone</source>
+            </trans-unit>
+            <trans-unit id="setting.email" resname="setting.email">
+                <source>E-Mail</source>
+            </trans-unit>
+            <trans-unit id="setting.street" resname="setting.street">
+                <source>Street and House Number</source>
+            </trans-unit>
+            <trans-unit id="setting.zip" resname="setting.zip">
+                <source>Postal Code</source>
+            </trans-unit>
+            <trans-unit id="setting.city" resname="setting.city">
+                <source>City</source>
+            </trans-unit>
+
+            <!-- CKEditor dropdown -->
+            <trans-unit id="dropdown.label" resname="dropdown.label">
+                <source>Master Data</source>
+            </trans-unit>
+            <trans-unit id="dropdown.tooltip" resname="dropdown.tooltip">
+                <source>Insert master data placeholder</source>
+            </trans-unit>
+
+        </body>
+    </file>
+</xliff>

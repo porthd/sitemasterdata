@@ -1,0 +1,30 @@
+settings:
+  sitemasterdataOwner:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata/Resources/Private/Language/locallang.xlf:setting.company'
+
+  sitemasterdataPhone:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata/Resources/Private/Language/locallang.xlf:setting.phone'
+
+  sitemasterdataEmail:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata/Resources/Private/Language/locallang.xlf:setting.email'
+
+  sitemasterdataStreet:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata/Resources/Private/Language/locallang.xlf:setting.street'
+
+  sitemasterdataZip:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata/Resources/Private/Language/locallang.xlf:setting.zip'
+
+  sitemasterdataCity:
+    type: string
+    default: ''
+    label: 'LLL:EXT:sitemasterdata/Resources/Private/Language/locallang.xlf:setting.city'

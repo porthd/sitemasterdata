@@ -1,0 +1,6 @@
+# Replace master data placeholders in RTE text nodes with real site settings values.
+# nonTypoTagStdWrap is applied to all text nodes between HTML tags –
+# exactly where editors insert placeholders.
+lib.parseFunc_RTE.nonTypoTagStdWrap {
+    postUserFunc = porthd\sitemasterdata\DataProcessing\SiteMasterdataProcessor->process
+}
