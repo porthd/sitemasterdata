@@ -7,6 +7,9 @@ services:
   porthd\sitemasterdata\:
     resource: '../Classes/'
 
+  porthd\sitemasterdata\DataProcessing\SiteMasterdataProcessor:
+    public: true
+
   porthd\sitemasterdata\EventListener\InjectSiteMasterdataPlaceholdersListener:
     tags:
       - name: event.listener
