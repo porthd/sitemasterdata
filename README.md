@@ -34,18 +34,12 @@ immediately.
 
 | Field | Placeholder |
 |---|---|
-| Owner / Operator | `[[sitemasterdata.owner]]` |
-| Contact Person | `[[sitemasterdata.contactPerson]]` |
+| Company / Operator | `[[sitemasterdata.owner]]` |
 | Phone | `[[sitemasterdata.phone]]` |
-| Fax | `[[sitemasterdata.fax]]` |
 | E-Mail | `[[sitemasterdata.email]]` |
 | Street and House Number | `[[sitemasterdata.street]]` |
 | Postal Code | `[[sitemasterdata.zip]]` |
 | City | `[[sitemasterdata.city]]` |
-| Youth Protection Officer | `[[sitemasterdata.youthProtectionOfficer]]` |
-| Data Protection Officer | `[[sitemasterdata.dataProtectionOfficer]]` |
-| AI Officer | `[[sitemasterdata.aiOfficer]]` |
-| Accessibility Officer | `[[sitemasterdata.accessibilityOfficer]]` |
 
 ---
 
@@ -55,7 +49,7 @@ immediately.
 |---|---|
 | TYPO3 | ^14.3 |
 | PHP | ^8.2 |
-| Required Site Set | `typo3/theme-camino` |
+| Site Set | `porthd/sitemasterdata` |
 
 ---
 
